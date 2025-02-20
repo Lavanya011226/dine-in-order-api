@@ -1,0 +1,24 @@
+#application.properties is commented below
+
+#spring.application.name=dine-in-order-api
+##DATASOURCE CONFIGURATION
+#spring.datasource.url = jdbc:mysql://localhost:3306/dine_in_db?createDatabaseIfNotExist=true
+#spring.datasource.user = root
+#spring.datasource.password = Mysql@123
+#spring.jpa.hibernate.ddl-auto = update
+#spring.jpa.show-sql = true
+
+spring:
+  application:
+    name: dine-in-order-api
+
+#DATASOURCE CONFIGURATION
+  datasource:
+    url: jdbc:mysql://localhost:3306/dine_in_db?createDatabaseIfNotExist=true
+    username: root
+    password: Mysql@123
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
